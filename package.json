@@ -1,0 +1,15 @@
+{
+  "name": "tex-codium",
+  "version": "1.0.0dev",
+  "main": "index.js",
+  "repository": "git@github.com:Linux-Multi-Architecture-Store/TeX-Codium.git",
+  "author": "Yinan Qin <1522846127@qq.com>",
+  "license": "BSD-2-Clause-Patent",
+  "scripts": {
+    "start": "electron ./index.js",
+    "compile": ""
+  },
+  "devDependencies": {
+    "electron": "8.5.5"
+  }
+}
