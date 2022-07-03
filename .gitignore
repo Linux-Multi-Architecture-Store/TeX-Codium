@@ -1,17 +1,26 @@
 .DS_Store
-.cache
-npm-debug.log
-Thumbs.db
-node_modules/
-.build/
-extensions/**/dist/
-/out*/
-/extensions/**/out/
-build/node_modules
-coverage/
-test_data/
-test-results/
-yarn-error.log
-vscode.lsif
-vscode.db
-/.profile-oss
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#Electron-builder output
+/dist_electron
