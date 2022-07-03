@@ -1,7 +1,7 @@
 <template>
   <el-menu>
     <el-menu-item index="1-1">
-      <router-link to="/test">Test</router-link>
+      <router-link to="/test"><div class="el-icon-info"></div></router-link>
     </el-menu-item>
     <el-menu-item index="1-2">选项2</el-menu-item>
   </el-menu>

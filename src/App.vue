@@ -9,7 +9,8 @@
   <router-view />
   -->
   <el-container>
-    <el-aside width="200px">
+    <el-header><TitleBar /></el-header>
+    <el-aside width="100px">
       <MenuTree />
     </el-aside>
     <el-main><router-view /></el-main>
@@ -28,11 +29,13 @@
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
-import MenuTree from "@/components/MenuTree.vue";
+import MenuTree from "@/views/MenuTree.vue";
+import TitleBar from "@/views/TitleBar.vue";
 
 @Options({
   components: {
     MenuTree,
+    TitleBar,
   },
 })
 export default class ContainerView extends Vue {}
